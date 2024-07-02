@@ -1,0 +1,30 @@
+.navbar {
+  list-style: none;
+  font-size: 18px;
+  position: relative;
+}
+.navbar li {
+  margin: 30px 15px;
+  padding-top: 13vh;
+  transition: transform 0.3s,color 0.3s;
+}
+.navbar .search {
+  position: absolute;
+  left: 18vh;
+}
+.navbar li:hover {
+  cursor: pointer;
+  color: #cffc3a;
+  transform: translateY(-5px);
+}
+
+nav img {
+  position: absolute;
+  top: 20px;
+  left: 20vh;
+}
+nav .logo {
+  position: absolute;
+  top: 2rem;
+  left: 70rem;
+}
