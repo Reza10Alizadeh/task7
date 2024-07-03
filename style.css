@@ -78,7 +78,7 @@ nav .logo {
   opacity: 85%;
   display: inline-block;
   padding: 2rem 5rem;
-  margin: 5vh 20vh;
+  margin: 5vh 21vh;
 }
 .social-networks img {
   transition: transform 0.3s ease;
@@ -91,15 +91,14 @@ nav .logo {
   left: 83%;
 }
 .sign-out-banner {
-  margin: 0 17.5vh;
+  margin: 0 20vh;
   color: white;
-  padding: 10px 9.9rem;
-  border-radius: 20px;
+  padding: 8px 10.3rem;
+  border-radius: 7px;
 }
-
 .sign-out .form-control {
   margin-top: 5px;
-  width: 60%;
+  width: 59%;
   position: relative;
   left: 20%;
   background-color: #b5b5b5;
@@ -115,8 +114,20 @@ nav .logo {
   font-weight: 500;
 }
 .Classification-banner{
-  margin: 2rem 20vh;
+  margin: 2rem 22vh;
   color: white;
-  padding: 8px 8rem;
-  border-radius: 15px;
+  padding: 8px 9rem;
+  border-radius: 7px;
+}
+.Classification-table {
+  width: 50%;
+  position: relative;
+  left: 25.5%;
+  font-weight: 700;
+}
+.Classification-table .score{
+  border-right: 5px solid orange;
+}
+.Classification-table .pos{
+  border-left:5px solid #c9c8c5 ;
 }
