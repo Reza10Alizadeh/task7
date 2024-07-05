@@ -10,7 +10,7 @@ body {
 .navbar li {
   margin: 30px 15px;
   padding-top: 13vh;
-  transition: transform 0.3s, color 0.3s;
+  transition: transform 0.3s;
 }
 .navbar .search {
   position: absolute;
@@ -20,7 +20,6 @@ body {
   cursor: pointer;
   transform: translateY(-5px);
 }
-
 nav img {
   position: absolute;
   top: 20px;
@@ -131,3 +130,94 @@ nav .logo {
 .Classification-table .pos{
   border-left:5px solid #c9c8c5 ;
 }
+.card-left{
+  position: fixed;
+  background-color:#dedede;
+  border-radius: 8px;
+  position: relative;
+  right: 70vh;
+  top: 2vh;
+  max-width: 400px;
+  margin: 20px auto;
+}
+.card-left .header p{
+  border-bottom: 5px solid grey;
+  padding-top: 10px;
+}
+.card-left h2{
+  padding-top: 20px;
+  display:flex;
+  justify-content: center;
+}
+.card-left .header {
+  text-align: center; 
+  margin-bottom: 10px;
+}
+.header .archive:hover{
+  color: yellow;
+}
+.card-left img {
+  width: 100%;
+  object-fit: cover;
+}
+.card-left .mid h2 {
+  display: flex;
+  justify-content: right;
+  padding: 0 10px;
+  font-size: 20px;
+}
+.card-left .mid p{
+  padding-top: 10px;
+  margin: 0;
+  padding-right: 20px;
+   display: flex;
+  justify-content: right;
+}
+.mid {
+  text-align: right;
+}
+.mid-img{
+  position: relative;
+  left: 71%;
+  padding-top: 10px;
+  width: 30%;
+  height: auto;
+}
+.mid-img img {
+  margin: 10px;
+}
+.card-section {
+  display: flex;
+  align-items: center;
+}
+.card-section img {
+  margin-right: 10px;
+}
+.img-text-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.img-text-container img {
+  margin-left: 10px;
+}
+
+.text-content h2 {
+  max-width: 500px;
+}
+.text-content h4 {
+  font-size: 15px;
+  margin-top: 17px;
+}
+.inline-texts {
+  display: flex;
+  font-size: 10px;
+}
+.inline-texts p {
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  white-space: nowrap;
+}
+
