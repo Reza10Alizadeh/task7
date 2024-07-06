@@ -366,6 +366,13 @@
       align-items: center;
       white-space: nowrap;
     }
+    @media only screen and (max-width: 1249px){
+      .card-left{
+        right: 90vh;
+        position: relative;
+        top: 140vh;
+      }
+    }
     .card-right {
       position: fixed;
       background-color: #dedede;
@@ -426,9 +433,33 @@
     .card-right .mid-img img {
       margin: 10px;
     }
+    @media only screen and (max-width: 1249px){
+      .card-right{
+        position: relative;
+        top: 320vh;
+        right: 143vh;
+        text-align: right;
+      }
+      .card-right .header2{
+        text-wrap: nowrap;
+      }
+      .card-right .header2 p{
+      text-wrap: wrap;
+      }
+    }
    .telegram-banner{
     position: relative;
     padding: 1rem 100vh;
+   }
+   @media only screen and (max-width: 1249px){
+    .telegram-banner{
+      top: 315vh;
+      right: 100vh;
+    }
+    .telegram-banner img{
+      width: 485px;
+      height: auto;
+    }
    }
 .footer{
   padding-bottom:1px;
@@ -460,4 +491,17 @@
 .footer-list li:hover{
   cursor: pointer;
   color: yellow;
+}
+@media only screen and (max-width: 1249px){
+  .footer{
+    position: relative;
+    top: 315vh;
+  }
+
+
+  .footer-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
