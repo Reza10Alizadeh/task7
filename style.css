@@ -2,39 +2,71 @@
     font-family: Arial, Helvetica, sans-serif;
   }
     .navbar {
+      display: flex;
       list-style: none;
       font-size: 18px;
+      align-items: center;
+      list-style: none;
       position: relative;
     }
-    
+
     .navbar li {
       margin: 30px 15px;
       padding-top: 13vh;
       transition: transform 0.3s;
     }
-    
     .navbar .search {
-      position: absolute;
-      left: 18vh;
+      margin-left: auto;
     }
-    
     .navbar li:hover {
       cursor: pointer;
       transform: translateY(-5px);
     }
-    
     nav img {
       position: absolute;
       top: 20px;
       left: 20vh;
     }
-    
     nav .logo {
       position: absolute;
       top: 2rem;
       left: 70rem;
     }
+    nav .logo img {
+      max-width: 100px;
+    }
+    @media only screen and (max-width: 1249px) {
+      .navbar {
+        flex-direction: column;
+      }
+      .navbar li {
+        margin: 0 15px;
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+      }  
+      .navbar li:hover{
+        display: inline-flex;
+        justify-content: center;
+        background-color: #bbd402;
+      }
+      nav img {
+        width: 100%;
+        position: static;
+        top: auto;
+        left: auto;
+      }
     
+      nav .logo {
+        position: static;
+        top: auto;
+        left: auto;
+      }
+      .navbar .search {
+        margin: 15px 0;
+      }
+     
+    }
     .img-section img {
       width: 100%;
       display: inline-block;
