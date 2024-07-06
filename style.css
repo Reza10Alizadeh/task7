@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 .navbar {
   display: flex;
@@ -445,7 +446,7 @@ nav .logo img {
 @media only screen and (max-width: 1249px) {
   .card-right {
     position: relative;
-    top: 320vh;
+    top: 278vh;
     right: 137.5vh;
     text-align: right;
   }
@@ -462,11 +463,11 @@ nav .logo img {
 }
 @media only screen and (max-width: 1249px) {
   .telegram-banner {
-    top: 316vh;
+    top: 275vh;
     right: 100vh;
   }
   .telegram-banner img {
-    width: 485px;
+    width: 390px;
     height: auto;
   }
 }
@@ -504,7 +505,7 @@ nav .logo img {
 @media only screen and (max-width: 1249px) {
   .footer {
     position: relative;
-    top: 317vh;
+    top: 277vh;
   }
   .footer-caption p {
     position: relative;
