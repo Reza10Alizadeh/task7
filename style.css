@@ -240,6 +240,7 @@ nav .logo img {
 @media only screen and (max-width: 600px) {
   .Classification-banner {
     right: 25%;
+    padding: 8px 9.2rem;
   }
   .Classification-table {
     position: relative;
@@ -378,9 +379,9 @@ nav .logo img {
 }
 @media only screen and (max-width: 600px) {
   .card-left {
-    right: 91.8vh;
+    right: 101vh;
     position: relative;
-    top: 120vh;
+    top: 138vh;
   }
 }
 .card-right {
@@ -446,8 +447,8 @@ nav .logo img {
 @media only screen and (max-width: 600px) {
   .card-right {
     position: relative;
-    top: 278vh;
-    right: 137.5vh;
+    top: 330vh;
+    right: 155vh;
     text-align: right;
   }
   .card-right .header2 {
@@ -464,7 +465,7 @@ nav .logo img {
 @media only screen and (max-width: 600px) {
   .telegram-banner {
     top: 275vh;
-    right: 100vh;
+    right: 100h;
   }
   .telegram-banner img {
     width: 390px;
@@ -511,6 +512,8 @@ nav .logo img {
     position: relative;
     top: 20vh;
     font-weight: bolder;
+    position: relative;
+    left: 5vh;
   }
   .footer-img {
     left: 40%;
