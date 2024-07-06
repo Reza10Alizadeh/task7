@@ -36,7 +36,7 @@ nav .logo {
 nav .logo img {
   max-width: 100px;
 }
-@media only screen and (max-width: 1249px) {
+@media only screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
   }
@@ -113,7 +113,7 @@ nav .logo img {
 .h-300px {
   height: 300px;
 }
-@media only screen and (max-width: 1249px) {
+@media only screen and (max-width: 768px) {
   .intro-row {
     position: relative;
     right: 30%;
@@ -150,7 +150,7 @@ nav .logo img {
 .social-networks img:hover {
   transform: scale(1.1);
 }
-@media only screen and (max-width: 1249px) {
+@media only screen and (max-width: 768px) {
   .social-networks {
     position: relative;
     right: 15%;
@@ -188,7 +188,7 @@ nav .logo img {
   right: 20%;
   font-weight: 500;
 }
-@media only screen and (max-width: 1249px) {
+@media only screen and (max-width: 768px) {
   .sign-out-banner {
     position: relative;
     right: 15.9%;
@@ -228,7 +228,7 @@ nav .logo img {
 .Classification-table .pos {
   border-left: 5px solid #c9c8c5;
 }
-@media only screen and (max-width: 1249px) {
+@media only screen and (max-width: 768px) {
   .Classification-banner {
     right: 14.8%;
   }
@@ -366,7 +366,7 @@ nav .logo img {
   align-items: center;
   white-space: nowrap;
 }
-@media only screen and (max-width: 1249px) {
+@media only screen and (max-width: 768px) {
   .card-left {
     right: 90vh;
     position: relative;
@@ -433,7 +433,7 @@ nav .logo img {
 .card-right .mid-img img {
   margin: 10px;
 }
-@media only screen and (max-width: 1249px) {
+@media only screen and (max-width: 768px) {
   .card-right {
     position: relative;
     top: 320vh;
@@ -451,7 +451,7 @@ nav .logo img {
   position: relative;
   padding: 1rem 100vh;
 }
-@media only screen and (max-width: 1249px) {
+@media only screen and (max-width: 768px) {
   .telegram-banner {
     top: 315vh;
     right: 100vh;
@@ -492,7 +492,7 @@ nav .logo img {
   cursor: pointer;
   color: yellow;
 }
-@media only screen and (max-width: 1249px) {
+@media only screen and (max-width: 768px) {
   .footer {
     position: relative;
     top: 315vh;
