@@ -150,7 +150,12 @@
     .social-networks img:hover {
       transform: scale(1.1);
     }
-    
+    @media only screen and (max-width: 1249px){
+      .social-networks{
+        position: relative;
+      right: 15%;
+      }
+    }
     .form-check-input {
       position: relative;
       left: 83%;
@@ -183,7 +188,24 @@
       right: 20%;
       font-weight: 500;
     }
-    
+    @media only screen and (max-width: 1249px){
+      .sign-out-banner{
+        position: relative;
+        right: 15.9%;
+        text-align: center; 
+      }
+      .sign-out .form-control {
+        width: 57%;
+        left: 6%;
+    }
+    .sign-out .form-label{
+      top: 2px;
+      right: 38%;
+    }
+    .sign-out .form-check{
+      right: 38%;
+    }
+    }
     .Classification-banner {
       margin: 2rem 22vh;
       text-wrap: nowrap;
@@ -206,7 +228,14 @@
     .Classification-table .pos {
       border-left: 5px solid #c9c8c5;
     }
-    
+    @media only screen and (max-width: 1249px){
+      .Classification-banner{
+        right: 14.8%;
+      }
+      .Classification-table{
+        left: 10%;
+      }
+    }
     .card1 {
       position: relative;
       bottom: 22.5vh;
