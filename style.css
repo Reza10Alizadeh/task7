@@ -1,6 +1,5 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
 }
 .navbar {
   display: flex;
@@ -38,6 +37,7 @@ nav .logo img {
 }
 @media only screen and (max-width: 1249px) {
   .navbar {
+    border-spacing: cover;
     flex-direction: column;
   }
   .navbar li {
@@ -116,7 +116,8 @@ nav .logo img {
 @media only screen and (max-width: 1249px) {
   .intro-row {
     position: relative;
-    right: 30%;
+    width: auto;
+    right: 40%;
     grid-template-columns: repeat(1, 1fr);
   }
   .intro-col-2-4 {
@@ -153,12 +154,14 @@ nav .logo img {
 @media only screen and (max-width: 1249px) {
   .social-networks {
     position: relative;
-    right: 15%;
+    padding: 1rem 4rem;
+    top: 10px;
+    right: 23%;
   }
 }
 .form-check-input {
   position: relative;
-  left: 83%;
+  left: 90%;
 }
 
 .sign-out-banner {
@@ -191,19 +194,20 @@ nav .logo img {
 @media only screen and (max-width: 1249px) {
   .sign-out-banner {
     position: relative;
-    right: 15.9%;
+    right: 23%;
+    padding: 8px 9.2rem;
     text-align: center;
   }
   .sign-out .form-control {
-    width: 57%;
-    left: 6%;
+    width: 47.5%;
+    left: 1%;
   }
   .sign-out .form-label {
     top: 2px;
-    right: 38%;
+    right: 52%;
   }
   .sign-out .form-check {
-    right: 38%;
+    right: 52%;
   }
 }
 .Classification-banner {
