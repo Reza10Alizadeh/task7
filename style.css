@@ -117,14 +117,14 @@ nav .logo img {
   .intro-row {
     position: relative;
     width: auto;
-    right: 40%;
+    right: 45%;
     grid-template-columns: repeat(1, 1fr);
   }
   .intro-col-2-4 {
     grid-column: span 1;
   }
   .intro-row img {
-    width: 480px;
+    width: 402px;
     height: 300;
   }
 }
@@ -194,8 +194,8 @@ nav .logo img {
 @media only screen and (max-width: 1249px) {
   .sign-out-banner {
     position: relative;
-    right: 23%;
-    padding: 8px 9.2rem;
+    right: 25%;
+    padding: 8px 10rem;
     text-align: center;
   }
   .sign-out .form-control {
@@ -207,7 +207,11 @@ nav .logo img {
     right: 52%;
   }
   .sign-out .form-check {
-    right: 52%;
+    right: 58%;
+  }
+  .sign-out .form-check-label{
+    position: relative;
+    left: 6%;
   }
 }
 .Classification-banner {
@@ -234,10 +238,11 @@ nav .logo img {
 }
 @media only screen and (max-width: 1249px) {
   .Classification-banner {
-    right: 14.8%;
+    right: 25%;
   }
   .Classification-table {
-    left: 10%;
+    position: relative;
+    left: 0.1%;
   }
 }
 .card1 {
@@ -372,9 +377,9 @@ nav .logo img {
 }
 @media only screen and (max-width: 1249px) {
   .card-left {
-    right: 90vh;
+    right: 91.8vh;
     position: relative;
-    top: 140vh;
+    top: 120vh;
   }
 }
 .card-right {
@@ -441,7 +446,7 @@ nav .logo img {
   .card-right {
     position: relative;
     top: 320vh;
-    right: 143vh;
+    right: 137.5vh;
     text-align: right;
   }
   .card-right .header2 {
@@ -457,7 +462,7 @@ nav .logo img {
 }
 @media only screen and (max-width: 1249px) {
   .telegram-banner {
-    top: 315vh;
+    top: 316vh;
     right: 100vh;
   }
   .telegram-banner img {
@@ -499,7 +504,7 @@ nav .logo img {
 @media only screen and (max-width: 1249px) {
   .footer {
     position: relative;
-    top: 315vh;
+    top: 317vh;
   }
   .footer-caption p {
     position: relative;
