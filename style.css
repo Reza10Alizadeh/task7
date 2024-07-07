@@ -39,6 +39,7 @@ nav .logo img {
 }@media only screen and (max-width: 768px){
   body{
     resize: none;
+    overflow-x: hidden;
   }
 }
 @media only screen and (max-width: 768px) {
