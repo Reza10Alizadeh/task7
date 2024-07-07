@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  resize: none;
 }
 .navbar {
   display: flex;
@@ -35,6 +36,10 @@ nav .logo {
 }
 nav .logo img {
   max-width: 100px;
+}@media only screen and (max-width: 768px){
+  body{
+    resize: none;
+  }
 }
 @media only screen and (max-width: 768px) {
   .navbar {
